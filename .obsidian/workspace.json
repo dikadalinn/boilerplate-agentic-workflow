@@ -1,0 +1,255 @@
+{
+  "main": {
+    "id": "ed01fc131f4dcf8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "eac5a1e87fd1e0fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc125c0870854e08",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/andikaleonardosurya/Documents/Work/Enigma/Internal things/project-obsidian",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": null
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "Terminal: OC | Git push to remote repository workflo..."
+            }
+          },
+          {
+            "id": "224189033bb7983c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs-template/business-context/brd-template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "brd-template"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4d51adf2115cb3d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "16d98c75bd13b443",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce97a9fe69883b96",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "dffcd3e77a371040",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3a6e02263e3ec586",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 345.5
+  },
+  "right": {
+    "id": "fcffe103d63fb796",
+    "type": "split",
+    "children": [
+      {
+        "id": "3af93f31453dd092",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf85d7cdad74c3e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "4afdd4244de3565a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "a1141d30d105c17c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4564118e55640674",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "925c56a5e3439a32",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "cc125c0870854e08",
+  "lastOpenFiles": [
+    "docs-template/business-context/brd-template.md",
+    "docs/00-inbox/mom-01.md",
+    "docs/00-inbox/idea-scratchpad.md",
+    "docs/00-inbox/briefs-01.md",
+    "docs/business-context/03-NFR.md",
+    "docs/business-context/02-Business-Flow.md",
+    "docs/00-inbox/mom-02.md",
+    "docs/business-context/01-BRD.md",
+    "docs-template/business-context/monetization-strategy-template.md",
+    "docs-template/business-context/nfr-template.md",
+    "docs-template/business-context/business-glossary-template.md",
+    "docs-template/business-context/business-flow-template.md",
+    "docs/business-context",
+    "docs/01-business/05-Business-Glossary.md",
+    "docs/01-business/01-BRD.md",
+    "docs/01-business/04-Monetization-Strategy.md",
+    "docs/01-business/03-NFR.md",
+    "docs/01-business/02-Business-Flow.md",
+    "docs/01-business",
+    "docs/00-inbox",
+    "docs/business-context/05-Business-Glossary.md",
+    "docs/business-context/04-Monetization-Strategy.md",
+    "docs/client-briefs/briefs-01.md",
+    "docs/client-briefs/mom-01.md",
+    "docs/client-briefs",
+    "Untitled.base"
+  ]
+}
