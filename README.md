@@ -24,6 +24,16 @@ Implementing an agentic workflow for documentation involves systematically guidi
 1. **Git Operations**: The agent can autonomously (or semi-autonomously) add, commit, and push documentation refinements to standard repositories.
 2. **Continuous Integration**: (Future) Webhooks and CI pipelines trigger documentation builds and deployments (e.g., static site generation) based on agentic commits.
 
+## Integrated AI Agents
+
+The framework is designed to work collectively with specialized AI roles defined in the `.opencode/agents/` directory, following a strict multi-phase workflow:
+
+- **Business Analyst (`@business-analyst`)**: Facilitates Phase 1 (Business Context), defining the BRD, flow, and NFRs.
+- **System Analyst (`@system-analyst`)**: Handles Phase 2 (System Context), translating business logic into architecture, databases, and API specs.
+- **Product Manager (`@product-manager`)**: Focuses on Phase 3 (Product Context), developing the PRD, UI states, user stories, and backlogs.
+- **Tech Lead (`@tech-lead`)**: Acts as the CTO in Phase 4 (Tech Context). Establishes coding standards, orchestrates executions, and supervises sub-agents.
+- **Subagents (`backend-dev`, `frontend-dev`, `qa-engineer`)**: Task-specific developer roles operating under the Tech Lead in Phase 5 to execute backlog tasks with precision.
+
 ## Getting Started
 
 1. Clone this repository.
