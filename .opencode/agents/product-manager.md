@@ -6,7 +6,7 @@ tools:
   read: true
   write: true
   bash: true
-  web_search: true
+  websearch: true
 ---
 
 # 1. Role & Persona

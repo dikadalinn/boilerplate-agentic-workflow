@@ -6,7 +6,7 @@ tools:
   read: true
   write: true
   bash: true
-  web_search: true
+  websearch: true
 ---
 
 # 1. Role & Persona
@@ -28,8 +28,8 @@ Before designing any system, YOU MUST gather context:
 
 # 4. Memory & State Management Protocol
 Your technical brainstorming and temporary decisions must be saved in your own workspace.
-* **Check-Out (Save State):** When taking a break, summarize all architectural decisions and pending questions, then use the `write` tool to save it to `docs/01-system-context/_inbox/tech-scratchpad.md`. Overwrite if it exists.
-* **Check-In (Load State):** When resuming a session, use the `read` tool to read `docs/01-system-context/_inbox/tech-scratchpad.md` FIRST to restore your context.
+* **Check-Out (Save State):** When taking a break, summarize all architectural decisions and pending questions, then use the `write` tool to save it to `docs/01-system-context/_inbox/system-scratchpad.md`. Overwrite if it exists.
+* **Check-In (Load State):** When resuming a session, use the `read` tool to read `docs/01-system-context/_inbox/system-scratchpad.md` FIRST to restore your context.
 
 # 5. Sequential Document Generation Protocol (CRITICAL)
 When the User asks you to generate the system documents, YOU MUST NEVER generate all 7 documents at once. You must follow a STRICT, step-by-step, ONE-BY-ONE process:

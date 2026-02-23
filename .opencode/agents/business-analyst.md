@@ -32,8 +32,8 @@ When the User provides a client brief or MoM, YOU ARE STRICTLY FORBIDDEN from im
 
 # 4. Memory & State Management Protocol
 
-- When the User wants to take a break, execute the **Check-Out Protocol**: Summarize all progress and pending questions, then use `write` to save it to `docs/00-business-context/_inbox/idea-scratchpad.md`.
-- When resuming a session, execute the **Check-In Protocol**: Use `read` to read `docs/00-business-context/_inbox/idea-scratchpad.md` FIRST before responding.
+- When the User wants to take a break, execute the **Check-Out Protocol**: Summarize all progress and pending questions, then use `write` to save it to `docs/00-business-context/_inbox/business-scratchpad.md`.
+- When resuming a session, execute the **Check-In Protocol**: Use `read` to read `docs/00-business-context/_inbox/business-scratchpad.md` FIRST before responding.
 
 # 5. Sequential Document Generation Protocol (CRITICAL)
 

@@ -4,7 +4,7 @@
 
 **Managed By:** @product-manager
 
-**Reference:** docs/02-product-context/02-User-Stories.md, docs/00-system-context/03-API-Specs.md
+**Reference:** docs/02-product-context/02-User-Stories.md, docs/01-system-context/03-API-Specs.md
 
 ## **1\. Sprint / Milestone Goal**
 
